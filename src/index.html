@@ -3,7 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
+    <title>Phil</title>
+    <style>
+      html {
+        font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      }
+      body {
+        box-sizing: border-box;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 5vw;
+      }
+    </style>
+    <script>
+      // add a class when key pressed
+      document.addEventListener("keydown", function (event) {
+        document.documentElement.classList.add("key-" + event.key);
+      });
+      // remove
+      document.addEventListener("keyup", function (event) {
+        document.documentElement.classList.remove("key-" + event.key);
+      });
+    </script>
   </head>
   <body>
     <div id="app"></div>

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "94tlg",
+    "freeform": "set a timer for 10 min",
+    "status": "candidate",
+    "patternId": "timer1"
+  },
+  {
+    "id": "7t5uq",
+    "freeform": "start the presentation",
+    "status": "candidate",
+    "patternId": "leave1"
+  },
+  {
+    "id": "jkchb",
+    "freeform": "type whatever you want",
+    "status": "candidate",
+    "patternId": "leave1"
+  },
+  {
+    "id": "wi5ic",
+    "freeform": "add eggs to my shopping list",
+    "status": "executed",
+    "patternId": "shop1"
+  },
+  {
+    "id": "y0zka",
+    "freeform": "google twitter stock price",
+    "status": "freeform",
+    "patternId": "google1"
+  },
+  {
+    "id": "2xh9o",
+    "freeform": "set a timer for 1 minute",
+    "status": "executed",
+    "patternId": "timer1"
+  },
+  {
+    "id": "xdz39",
+    "freeform": "note down what I've done today",
+    "status": "candidate",
+    "patternId": "leave1"
+  },
+  { "id": "veok0", "freeform": "", "status": "freeform" }
+]

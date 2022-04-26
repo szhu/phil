@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "status": "executed",
+    "freeform": "set a timer for 5 minutes",
+    "patternId": "timer1"
+  },
+  {
+    "id": "0.7877752573708903",
+    "freeform": "google add beans to shopping list",
+    "status": "freeform",
+    "patternId": "google1"
+  },
+  {
+    "id": "0.8597772687061884",
+    "freeform": "google what happened with twitter",
+    "status": "freeform",
+    "patternId": "google1"
+  },
+  {
+    "id": "0.16977087915669054",
+    "freeform": "set a timer for ",
+    "status": "freeform"
+  },
+  { "id": "0.3630720983473441", "freeform": "15m timer", "status": "freeform" },
+  {
+    "id": "0.1516034980089136",
+    "freeform": "set a timer for 15m",
+    "status": "freeform"
+  },
+  { "id": "0.3355415285920089", "freeform": "", "status": "freeform" }
+]
