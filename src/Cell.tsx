@@ -49,6 +49,12 @@ const Patterns: Record<string, Pattern> = {
     actionId: "leave",
     priority: 2,
   },
+  list1: {
+    icon: "➕",
+    regex: /^add (?<item>[\s\S]*) to list of (?<list>[\s\S]*)$/,
+    actionId: "list",
+    priority: 5,
+  },
 
   // > add vegetables to my shopping list
   // > set a timer for 5 minutes for
@@ -101,6 +107,22 @@ const Actions: Record<string, Action> = {
       <>
         <div>
           add <Slot>{item}</Slot> to shopping list? &nbsp;&nbsp;&nbsp;
+          <Button
+            disabled={status === "executed"}
+            onClick={() => setState({ status: "executed" })}
+          >
+            {status === "executed" ? "Added" : "Add"}
+          </Button>
+        </div>
+      </>
+    );
+  },
+  list: ({ fields: { item, list }, status, setState }) => {
+    return (
+      <>
+        <div>
+          add <Slot>{item}</Slot> to list of <Slot>{list}</Slot>?
+          &nbsp;&nbsp;&nbsp;
           <Button
             disabled={status === "executed"}
             onClick={() => setState({ status: "executed" })}
